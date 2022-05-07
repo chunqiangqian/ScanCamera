@@ -89,7 +89,7 @@ int v4l2_enuminput(int fd, int index, char* name);
  * 函数名称：ScaneCameras
  * 功能描述：scane camera path
  */
-void ScaneCameras();
+void ScanCameras();
 
 
 #endif

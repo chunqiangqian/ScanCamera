@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/mnt/hgfs/Program_Codes/CPP_Linux/ScaneCameras/lib/scane.cpp" "/mnt/hgfs/Program_Codes/CPP_Linux/ScaneCameras/build/CMakeFiles/main.dir/lib/scane.cpp.o"
+  "/mnt/hgfs/Program_Codes/CPP_Linux/ScaneCameras/lib/scan.cpp" "/mnt/hgfs/Program_Codes/CPP_Linux/ScaneCameras/build/CMakeFiles/main.dir/lib/scan.cpp.o"
   "/mnt/hgfs/Program_Codes/CPP_Linux/ScaneCameras/main.cpp" "/mnt/hgfs/Program_Codes/CPP_Linux/ScaneCameras/build/CMakeFiles/main.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

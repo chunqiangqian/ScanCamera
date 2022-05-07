@@ -123,32 +123,32 @@ main/fast:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
-lib/scane.o: lib/scane.cpp.o
+lib/scan.o: lib/scan.cpp.o
 
-.PHONY : lib/scane.o
+.PHONY : lib/scan.o
 
 # target to build an object file
-lib/scane.cpp.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/lib/scane.cpp.o
-.PHONY : lib/scane.cpp.o
+lib/scan.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/lib/scan.cpp.o
+.PHONY : lib/scan.cpp.o
 
-lib/scane.i: lib/scane.cpp.i
+lib/scan.i: lib/scan.cpp.i
 
-.PHONY : lib/scane.i
+.PHONY : lib/scan.i
 
 # target to preprocess a source file
-lib/scane.cpp.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/lib/scane.cpp.i
-.PHONY : lib/scane.cpp.i
+lib/scan.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/lib/scan.cpp.i
+.PHONY : lib/scan.cpp.i
 
-lib/scane.s: lib/scane.cpp.s
+lib/scan.s: lib/scan.cpp.s
 
-.PHONY : lib/scane.s
+.PHONY : lib/scan.s
 
 # target to generate assembly for a file
-lib/scane.cpp.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/lib/scane.cpp.s
-.PHONY : lib/scane.cpp.s
+lib/scan.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/lib/scan.cpp.s
+.PHONY : lib/scan.cpp.s
 
 main.o: main.cpp.o
 
@@ -186,9 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... main"
 	@echo "... edit_cache"
-	@echo "... lib/scane.o"
-	@echo "... lib/scane.i"
-	@echo "... lib/scane.s"
+	@echo "... lib/scan.o"
+	@echo "... lib/scan.i"
+	@echo "... lib/scan.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

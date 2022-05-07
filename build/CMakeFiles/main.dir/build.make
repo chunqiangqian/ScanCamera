@@ -81,40 +81,40 @@ CMakeFiles/main.dir/main.cpp.o.provides: CMakeFiles/main.dir/main.cpp.o.requires
 CMakeFiles/main.dir/main.cpp.o.provides.build: CMakeFiles/main.dir/main.cpp.o
 
 
-CMakeFiles/main.dir/lib/scane.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/lib/scane.cpp.o: ../lib/scane.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/hgfs/Program_Codes/CPP_Linux/ScaneCameras/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/lib/scane.cpp.o"
-	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/lib/scane.cpp.o -c /mnt/hgfs/Program_Codes/CPP_Linux/ScaneCameras/lib/scane.cpp
+CMakeFiles/main.dir/lib/scan.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/lib/scan.cpp.o: ../lib/scan.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/hgfs/Program_Codes/CPP_Linux/ScaneCameras/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/lib/scan.cpp.o"
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/lib/scan.cpp.o -c /mnt/hgfs/Program_Codes/CPP_Linux/ScaneCameras/lib/scan.cpp
 
-CMakeFiles/main.dir/lib/scane.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/lib/scane.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/hgfs/Program_Codes/CPP_Linux/ScaneCameras/lib/scane.cpp > CMakeFiles/main.dir/lib/scane.cpp.i
+CMakeFiles/main.dir/lib/scan.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/lib/scan.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/hgfs/Program_Codes/CPP_Linux/ScaneCameras/lib/scan.cpp > CMakeFiles/main.dir/lib/scan.cpp.i
 
-CMakeFiles/main.dir/lib/scane.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/lib/scane.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/hgfs/Program_Codes/CPP_Linux/ScaneCameras/lib/scane.cpp -o CMakeFiles/main.dir/lib/scane.cpp.s
+CMakeFiles/main.dir/lib/scan.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/lib/scan.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/hgfs/Program_Codes/CPP_Linux/ScaneCameras/lib/scan.cpp -o CMakeFiles/main.dir/lib/scan.cpp.s
 
-CMakeFiles/main.dir/lib/scane.cpp.o.requires:
+CMakeFiles/main.dir/lib/scan.cpp.o.requires:
 
-.PHONY : CMakeFiles/main.dir/lib/scane.cpp.o.requires
+.PHONY : CMakeFiles/main.dir/lib/scan.cpp.o.requires
 
-CMakeFiles/main.dir/lib/scane.cpp.o.provides: CMakeFiles/main.dir/lib/scane.cpp.o.requires
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/lib/scane.cpp.o.provides.build
-.PHONY : CMakeFiles/main.dir/lib/scane.cpp.o.provides
+CMakeFiles/main.dir/lib/scan.cpp.o.provides: CMakeFiles/main.dir/lib/scan.cpp.o.requires
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/lib/scan.cpp.o.provides.build
+.PHONY : CMakeFiles/main.dir/lib/scan.cpp.o.provides
 
-CMakeFiles/main.dir/lib/scane.cpp.o.provides.build: CMakeFiles/main.dir/lib/scane.cpp.o
+CMakeFiles/main.dir/lib/scan.cpp.o.provides.build: CMakeFiles/main.dir/lib/scan.cpp.o
 
 
 # Object files for target main
 main_OBJECTS = \
 "CMakeFiles/main.dir/main.cpp.o" \
-"CMakeFiles/main.dir/lib/scane.cpp.o"
+"CMakeFiles/main.dir/lib/scan.cpp.o"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
 
 main: CMakeFiles/main.dir/main.cpp.o
-main: CMakeFiles/main.dir/lib/scane.cpp.o
+main: CMakeFiles/main.dir/lib/scan.cpp.o
 main: CMakeFiles/main.dir/build.make
 main: CMakeFiles/main.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/hgfs/Program_Codes/CPP_Linux/ScaneCameras/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable main"
@@ -126,7 +126,7 @@ CMakeFiles/main.dir/build: main
 .PHONY : CMakeFiles/main.dir/build
 
 CMakeFiles/main.dir/requires: CMakeFiles/main.dir/main.cpp.o.requires
-CMakeFiles/main.dir/requires: CMakeFiles/main.dir/lib/scane.cpp.o.requires
+CMakeFiles/main.dir/requires: CMakeFiles/main.dir/lib/scan.cpp.o.requires
 
 .PHONY : CMakeFiles/main.dir/requires
 

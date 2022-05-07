@@ -1,1 +1,1 @@
-g++  -O3 -g -lm -ldl -pthread  -rdynamic CMakeFiles/main.dir/main.cpp.o CMakeFiles/main.dir/lib/scane.cpp.o  -o main 
+g++  -O3 -g -lm -ldl -pthread  -rdynamic CMakeFiles/main.dir/main.cpp.o CMakeFiles/main.dir/lib/scan.cpp.o  -o main 

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-.././lib/scane.h
+.././lib/scan.h
 stdio.h
 -
 string.h
@@ -36,11 +36,11 @@ stdint.h
 dirent.h
 -
 
-/mnt/hgfs/Program_Codes/CPP_Linux/ScaneCameras/lib/scane.cpp
-scane.h
-/mnt/hgfs/Program_Codes/CPP_Linux/ScaneCameras/lib/scane.h
+/mnt/hgfs/Program_Codes/CPP_Linux/ScaneCameras/lib/scan.cpp
+scan.h
+/mnt/hgfs/Program_Codes/CPP_Linux/ScaneCameras/lib/scan.h
 
-/mnt/hgfs/Program_Codes/CPP_Linux/ScaneCameras/lib/scane.h
+/mnt/hgfs/Program_Codes/CPP_Linux/ScaneCameras/lib/scan.h
 stdio.h
 -
 string.h
@@ -79,6 +79,6 @@ iostream
 -
 string.h
 -
-scane.h
-/mnt/hgfs/Program_Codes/CPP_Linux/ScaneCameras/scane.h
+scan.h
+/mnt/hgfs/Program_Codes/CPP_Linux/ScaneCameras/scan.h
 

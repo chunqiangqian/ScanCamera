@@ -1,4 +1,4 @@
-#include "scane.h"
+#include "scan.h"
 
 int v4l2_open(const char* name, int flag)
 {
@@ -109,7 +109,7 @@ int usb_camera_open(const char *dev, v4l2_buf** mV4l2Buf, std::string &card)
 }
 
 
-void ScaneCameras()
+void ScanCameras()
 {
     struct v4l2_buf* mV4l2Buf;
     std::string card;

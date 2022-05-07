@@ -2,12 +2,12 @@
 #include <dirent.h>
 #include <iostream>
 #include <string.h>
-#include "scane.h"
+#include "scan.h"
 
 
 int main()
 {
-    ScaneCameras();
+    ScanCameras();
 
     return 0;
 }
