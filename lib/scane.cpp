@@ -118,11 +118,12 @@ void ScaneCameras()
     char path_[] = "/dev";
     DIR *dir = opendir(path_);
     if (dir != NULL) {
+        // 在路径/dev下遍历所以文件
         while ((ent = readdir(dir)) != NULL){
             // 截取部分char，这里只截取前5个
             char filename[5];
             strncpy(filename, ent->d_name, 5);
-            // 字符串比较，并获取完整的摄像头路径
+            // 字符串比较，并获取完整的摄像头路径，/dev/video*
             if (strcmp(filename, "video") == 0) {
                 //printf("%s\n", ent->d_name);
                 std::string camPath;
