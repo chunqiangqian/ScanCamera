@@ -1,0 +1,3 @@
+/mnt/hgfs/Program_Codes/CPP_Linux/ScaneCameras/build/CMakeFiles/rebuild_cache.dir
+/mnt/hgfs/Program_Codes/CPP_Linux/ScaneCameras/build/CMakeFiles/main.dir
+/mnt/hgfs/Program_Codes/CPP_Linux/ScaneCameras/build/CMakeFiles/edit_cache.dir
