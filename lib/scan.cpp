@@ -130,9 +130,9 @@ void ScanCameras(std::vector<std::string> &camCards, std::vector<std::string> &c
                 camPath.append("/dev/");
                 camPath.append(ent->d_name);
                 int cameraDevFd = usb_camera_open(camPath.c_str(), &mV4l2Buf, card);
-                camCards.push_back(card);
-                camPaths.push_back(camPath);
                 if (cameraDevFd > 0) {
+                    camCards.push_back(card);
+                    camPaths.push_back(camPath);
                     // 摄像头路径
                     printf("%s\n", ent->d_name);
                     // 摄像头信息
