@@ -16,6 +16,7 @@
 #include <stdint.h>
 #include <dirent.h>
 #include <vector>
+#include<sstream>        //istringstream 必须包含这个头文件
 
 struct v4l2_buf_unit {
     int                index;
@@ -80,11 +81,12 @@ int v4l2_enuminput(int fd, int index, char* name);
 
 
 /*
- * 函数名称：ScaneCameras
- * 功能描述：scane camera path
- * 输入参数：two eye camera and one field camera
+ * 函数名称：Stringsplit
+ * 功能描述：字符串分割
+ * 输入参数：str为原始字符串，split为基于的分割符
+ * 输出结果：res为分割后的字符串数组
  */
-//void ScaneCameras(std::string &Path_CamL, std::string &Path_CamR, std::string &Path_Field);
+void Stringsplit(std::string str, char split, std::vector<std::string>& res);
 
 /*
  * 函数名称：ScaneCameras

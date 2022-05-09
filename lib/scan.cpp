@@ -131,7 +131,15 @@ void ScanCameras(std::vector<std::string> &camCards, std::vector<std::string> &c
                 camPath.append(ent->d_name);
                 int cameraDevFd = usb_camera_open(camPath.c_str(), &mV4l2Buf, card);
                 if (cameraDevFd > 0) {
-                    camCards.push_back(card);
+                    // 判断是否存在冒号，如果存在，则去除
+                    if(strstr(card.c_str(), ":") != NULL){
+                        std::vector<std::string> res;
+                        char split = ':';
+                        Stringsplit(card, split, res);
+                        camCards.push_back(res[0]);
+                    } else {
+                        camCards.push_back(card);
+                    }
                     camPaths.push_back(camPath);
                     // 摄像头路径
                     printf("%s\n", ent->d_name);
