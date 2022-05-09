@@ -15,6 +15,7 @@
 #include <linux/videodev2.h>
 #include <stdint.h>
 #include <dirent.h>
+#include <vector>
 
 struct v4l2_buf_unit {
     int                index;
@@ -87,9 +88,10 @@ int v4l2_enuminput(int fd, int index, char* name);
 
 /*
  * 函数名称：ScaneCameras
- * 功能描述：scane camera path
+ * 功能描述：扫描所有可用摄像头
+ * 输出结果：camCards为摄像头设备信息，camPaths为摄像头路径
  */
-void ScanCameras();
+void ScanCameras(std::vector<std::string> &camCards, std::vector<std::string> &camPaths);
 
 
 #endif

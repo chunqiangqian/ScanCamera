@@ -35,6 +35,8 @@ stdint.h
 -
 dirent.h
 -
+vector
+-
 
 /mnt/hgfs/Program_Codes/CPP_Linux/ScaneCameras/lib/scan.cpp
 scan.h
@@ -69,6 +71,8 @@ stdint.h
 -
 dirent.h
 -
+vector
+-
 
 /mnt/hgfs/Program_Codes/CPP_Linux/ScaneCameras/main.cpp
 sys/types.h
@@ -81,4 +85,6 @@ string.h
 -
 scan.h
 /mnt/hgfs/Program_Codes/CPP_Linux/ScaneCameras/scan.h
+vector
+-
 
