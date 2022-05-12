@@ -37,6 +37,8 @@ dirent.h
 -
 vector
 -
+sstream
+-
 
 /mnt/hgfs/Program_Codes/CPP_Linux/ScaneCameras/lib/scan.cpp
 scan.h
@@ -72,6 +74,8 @@ stdint.h
 dirent.h
 -
 vector
+-
+sstream
 -
 
 /mnt/hgfs/Program_Codes/CPP_Linux/ScaneCameras/main.cpp
